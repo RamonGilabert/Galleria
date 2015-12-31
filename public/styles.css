@@ -1,0 +1,31 @@
+body {
+    background-color: #E3C18A;
+}
+
+.dot-navigation {
+  margin-top: 300px;
+  margin-left: 300px;
+}
+
+.dot-navigation {
+  display: inline;
+}
+
+.dot-navigation li {
+  list-style-type: none;
+}
+
+.dot-navigation li a {
+    margin: 0 7.5px;
+    width: 8px;
+    height: 8px;
+    float: left;
+    position: relative;
+    background-color: blue;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.dot-navigation li a.current {
+  background-color: red;
+}
