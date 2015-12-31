@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded", function() {
-    console.log("Sup")
+    console.log(document.activeElement)
 })
