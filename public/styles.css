@@ -1,13 +1,21 @@
+/* Main */
+
 body {
   margin: 0 auto;
   background-color: #FFFFFF;
 }
+
+/* Gallery */
 
 .galleria {
   width: 100vw;
   height: 100vh;
   background-color: blue;
 }
+
+/* Inside gallery */
+
+/* Navigation */
 
 .dot-navigation ul {
   margin: 0;
