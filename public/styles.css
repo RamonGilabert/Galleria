@@ -71,13 +71,13 @@ body {
 }
 
 #third-image {
-  background-image: url("http://images.apple.com/v/mac/home/s/home/images/hero_large.jpg");
-  background-size: cover;
+  background-image: url("http://images.apple.com/v/mac/home/s/home/images/hero_medium.jpg");
+  background-size: contain;
   background-repeat: no-repeat;
-  width: 75vw;
-  height: 50vh;
+  width: 80vw;
+  height: 95vh;
   position: absolute;
-  left: 50%;
+  left: 49%;
   transform: translateX(-50%);
 }
 
