@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
-  var dotNavigation = document.getElementsByClassName("dot-navigation")[0];
+  var dotNavigation = document.getElementById("dot-navigation");
   var links = Array.prototype.slice.call(dotNavigation.getElementsByTagName("a"));
 
-  var galleryContainer = document.getElementsByClassName("galleria-container")[0];
+  var galleryContainer = document.getElementById("galleria-container");
 
   links.forEach(function(element) {
     element.addEventListener("click", function() {
