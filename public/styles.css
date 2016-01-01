@@ -74,9 +74,10 @@ body {
   background-image: url("http://images.apple.com/v/mac/home/s/home/images/hero_medium.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 80vw;
-  height: 95vh;
+  width: 70vw;
+  height: 85vh;
   position: absolute;
+  margin-top: 10vh;
   left: 49%;
   transform: translateX(-50%);
 }
