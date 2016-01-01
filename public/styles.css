@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,100);
+
 /* Main */
 
 body {
@@ -54,8 +56,9 @@ body {
   width: 95vw;
   height: 80vh;
   margin-left: 50%;
-  margin-top: 27.5vh;
+  margin-top: 15vh;
   transform: translateX(-50%);
+  position: absolute;
 }
 
 #second-image {
@@ -65,7 +68,7 @@ body {
   width: 100vw;
   height: 80vh;
   margin-left: 0px;
-  margin-top: 10vh;
+  margin-top: 5vh;
   position: absolute;
   left: 0%;
 }
@@ -77,9 +80,29 @@ body {
   width: 70vw;
   height: 85vh;
   position: absolute;
-  margin-top: 10vh;
+  margin-top: 5vh;
   left: 49%;
   transform: translateX(-50%);
+}
+
+/* Inside gallery titles */
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  margin: 0 auto;
+  margin-top: 65px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 25px;
+  margin: 0 auto;
+  margin-top: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
 }
 
 /* Navigation */
