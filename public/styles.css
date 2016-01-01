@@ -34,13 +34,13 @@ body {
 }
 
 #second-section {
-  background-color: yellow;
+  background-color: white;
   position: absolute;
   left: 100%;
 }
 
 #third-section {
-  background-color: black;
+  background-color: white;
   position: absolute;
   left: 200%;
 }
@@ -54,16 +54,31 @@ body {
   width: 95vw;
   height: 80vh;
   margin-left: 50%;
-  margin-top: 37.5vh;
+  margin-top: 27.5vh;
   transform: translateX(-50%);
 }
 
 #second-image {
-
+  background-image: url("http://images.apple.com/v/iphone/home/r/home/images/hero_medium.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 80vh;
+  margin-left: 0px;
+  margin-top: 10vh;
+  position: absolute;
+  left: 0%;
 }
 
 #third-image {
-
+  background-image: url("http://images.apple.com/v/mac/home/s/home/images/hero_large.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 75vw;
+  height: 50vh;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* Navigation */
