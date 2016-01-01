@@ -27,5 +27,13 @@ body {
 }
 
 .dot-navigation li a.current {
-  background-color: red;
+  border: 1px solid blue;
+  background-color: transparent;
+  border-color: blue;
+  border-radius: 5px;
+  width: 6.5px;
+  height: 6.5px;
+  margin-top: -0.75px;
+  -webkit-transition: ease-in-out, .35s ease-in-out;
+  transition: ease-in-out, .35s ease-in-out;
 }
