@@ -30,7 +30,7 @@ body {
 }
 
 #first-section {
-  background-color: red;
+  background-color: white;
 }
 
 #second-section {
@@ -45,7 +45,26 @@ body {
   left: 200%;
 }
 
-/* Inside gallery */
+/* Images inside gallery */
+
+#first-image {
+  background-image: url("http://images.apple.com/v/home/ch/images/home_hero_ipad_large.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 95vw;
+  height: 80vh;
+  margin-left: 50%;
+  margin-top: 37.5vh;
+  transform: translateX(-50%);
+}
+
+#second-image {
+
+}
+
+#third-image {
+
+}
 
 /* Navigation */
 
