@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-  function galleria(milliseconds) {
+  function galleria(milliseconds, translation) {
+    if (typeof(translation)==='undefined') translation = 100;
+
     var dotNavigation = document.getElementById("dot-navigation");
     var links = Array.prototype.slice.call(dotNavigation.getElementsByTagName("a"));
     var galleryContainer = document.getElementById("galleria-container");
@@ -32,8 +34,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
       link.classList.add("current");
 
-      var translation = -100 * value;
-      galleryContainer.style.transform = "translateX(" + translation + "%)";
+      var galleriaTranslation = -translation * value;
+      galleryContainer.style.transform = "translateX(" + galleriaTranslation + "%)";
     }
 
     links[0].classList.add("current");
