@@ -1,5 +1,7 @@
 # Galleria
 
+![Galleria](https://github.com/RamonGilabert/Galleria/blob/master/resources/Screenshot.png)
+
 A nice gallery to use in full screen in your website. This was to practice a bit more of CSS and JS combined with HTML. Getting better and better! :)
 
 ## Roadmap
